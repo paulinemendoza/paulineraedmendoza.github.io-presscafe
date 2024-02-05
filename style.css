@@ -16,7 +16,7 @@ img{
 }
 
 header{
-	background-image: url(/Users/paulinemendoza/Desktop/presscafe/images/main_banner.jpg);
+	background-image: url(images/main_banner.jpg);
 	background-size: cover;
 	height: 100vh;
 	position: relative;

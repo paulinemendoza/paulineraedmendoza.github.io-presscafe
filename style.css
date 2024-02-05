@@ -1,0 +1,263 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:wght@400;600;800&display=swap');
+
+body{
+	margin: 0;
+	font-family: 'Lora', serif;
+}
+
+img{
+	width: 100%;
+	font-family: 'Lora', serif;
+}
+
+.clearfix{
+	clear:both;
+}
+
+header{
+	background-image: url(/Users/paulinemendoza/Desktop/presscafe/images/main_banner.jpg);
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+header img{
+	width: 300px;
+	height: 58px;
+	margin: 10px 0 0 30px;
+}
+
+
+nav{
+	position: absolute;
+	top: 20px;
+	right: 30px;
+
+}
+
+nav ul li{
+	float: left;
+	margin-left: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	list-style: none;
+}
+
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+header h1{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 96px;
+	font-weight: 800;
+	color: #88EBF2;
+	margin: 0;
+}
+
+header h3{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 48px;
+	font-weight: 400;
+	color: white;
+	letter-spacing: 40px;
+	margin: 0;
+}
+
+#blurb{
+	position: absolute;
+	bottom: 10px;
+	left: 30px;
+}
+
+main{
+	background-color: #DDD9D8;
+
+}
+
+main h1{
+	background: #DDD9D8;
+	font-size: 24px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 20px 0 20px 30px;
+}
+
+.section-title{
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 50px;
+}
+
+.section-title h2{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: 30px;
+	margin-left: 0;
+}
+
+#services{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: pink;
+}
+
+.card{
+	width: 300px;
+	float: left;
+	margin-left: 30px;
+}
+
+.card:first-child{
+	margin-left: 0px;
+
+}
+
+.card h4{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+.footer{
+	background-color: lightblue;
+}
+
+.section{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#contact{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: lightblue;
+
+#widget{
+	width: 630px;
+	float: left;
+	margin: 50px 0 50px 15px;
+	padding: 0;
+	position: relative;
+}
+
+#widget p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
+#widget nav{
+	position: static;
+}
+
+#widget nav ul{
+	margin: 0;
+	margin-block-start: 0;
+	margin-block-start: 0;
+	padding-inline-start: 0;
+}
+
+#widget nav ul li{
+	font-size: 12px;
+	font-weight: 400;
+	text-transform: uppercase;
+	float: left;
+	margin-left: 20px;
+	list-style: none;
+}
+
+#widget nav ul li a:first-of-type{
+	margin-left: 0;
+}
+
+#widget nav ul li a{
+	color: #000;
+	text-decoration: none;
+	letter-spacing: 5.46px;
+	font-family: 'Lora', serif;
+	font-size: 14px;
+}
+
+.address{
+	width: 300px;
+	float: left;
+	margin: 30px 15px 50px 0;
+}
+
+#contact main .address{
+	width: 285px;
+	float: left;
+	margin-top: 65px;
+	margin-left: 30px;
+}
+
+.black{
+	color: #000;
+	font-weight: 600;
+}
+
+.card, .map{
+	width: ;
+}
+
+.card:first-child, .map:first-child{
+	margin-left: 0;
+}
+
+.card h4{
+	font-size: 24px;
+	font-weight: 400;
+	text-align: center;
+	text-transform: capitalize;
+	margin-top: 1;
+}
+
+.card p, #dream{
+	font-family: 'Lora', serif;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+---{
+	font-weight: 400;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 20px 0 20px 30px;
+}
+
+.h2{
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: 15px;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 100px 0 50px;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+#subfooter{
+	background: #60A3A9;
+	text-transform: uppercase;
+	color: #000;
+}
+
+.mapouter{
+	position: relative;
+	text-align: right;
+	height: 300px;
+	width: 600px;
+	margin: 75px 30px 0 0;
+}
